@@ -6,12 +6,10 @@ terraform {
     }
   }
 }
-#access: PZDJEJz1Whvj6j6Z+lwc5CbNA01BCPPmVoPsf0Sd
-#secret: AKIASHYA67DDEEIYE6VV
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "ap-southeast-1"
-  access_key = "AKIASHYA67DDEEIYE6VV"
-  secret_key = "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"
+  region = "<my_region>"
+  access_key = "<my_access_key>"
+  secret_key = "<my_secert_key>"
 }
